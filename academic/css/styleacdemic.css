@@ -1,0 +1,94 @@
+#mySidenav a {
+    position: absolute;
+    left: -224px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about8 {
+   margin-top: 95px;
+    background-color: #04AA6D;
+    text-align: right;
+  }
+  
+  #blog8 {
+    margin-top: 166px;
+    background-color: #2196F3;
+    text-align: right;
+  }
+  
+  #projects8 {
+   margin-top: 237px;
+    background-color: #f44336;
+  }
+  
+  #contact8 {
+    margin-top: 308px;
+    background-color: #555 
+  }
+  .wecare {
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-left: 100px;
+}
+
+.servi {
+    width: 355px;
+    height: 150px;
+}
+
+.DSC4 {
+    width: 355px;
+    height: 150px;
+}
+
+.bando {
+    float: left;
+}
+
+.over7 {
+    text-align: center;
+    color: #2f89fc;
+}
+
+.acami li {
+    list-style: disc;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+
+.academic7 p {
+    text-indent: 30px;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+ 
+.acamu li{
+  list-style: circle;
+ 
+}
+.imgacdemic {
+  width: 350px;
+  height: 300px;
+  float: left;
+}
+.acamy{
+  margin-left: 30px;
+}
+
+.acami4 li {
+  list-style: disc;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  margin-left: 354px;
+}

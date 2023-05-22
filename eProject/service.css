@@ -1,0 +1,68 @@
+.featured-services .icon-box{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+
+}
+#featured-section{
+    width: 80%;
+    margin : 40px auto;
+    
+}
+.featured-services .icon-box::before{
+    content: "";
+    position: absolute;
+    background: #d9f1f2;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.featured-services .icon-box:hover::before{
+    background: rgb(230, 246, 247);
+    top: 0;
+    border-radius: 0px;
+    color:#223A66;
+
+}
+
+.featured-services .icon{
+    margin-bottom: 15px;
+}
+
+.featured-services .icon i{
+    font-size: 48px;
+    line-height: 1;
+    color: #1977cc;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-services .title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.featured-services .title a{
+    color: #111;
+}
+.featured-services .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+
+}
+
+.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description{
+    color: black;
+}
+.featured-services .icon-box:hover .icon i{
+    color: #fff;
+}
